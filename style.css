@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body{      
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;   
+}
+
+h1 {
+    margin: 10px;
+}
+
+main{
+    color:aliceblue;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+}
+
+
+form #cep.form { 
+ width: 35%;
+} 
+
+form #ddd,#uf.form {
+ width: 10%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;   
+    padding: 1.5px;
+    margin: 10px;     
+}
+
+
+
+
+
