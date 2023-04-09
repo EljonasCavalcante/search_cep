@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="text.css">
+    <title>Buscador de CEP</title>
+</head>
+<body>
+    <div class="card">
+        <div class="tools">
+          <div class="circle">
+            <span class="red box"></span>
+          </div>
+          <div class="circle">
+            <span class="yellow box"></span>
+          </div>
+          <div class="circle">
+            <span class="green box"></span>
+          </div>
+        </div>
+        <div class="card__content">
+        </div>
+        <main class="container">   
+            <h1>Buscador de CEP</h1>
+            <form >
+                <div class="form">
+                    <label for="">CEP</label>
+                    <input type="text" class="form" maxlength="9" id="cep" placeholder="00000-000">                
+                </div>
+                <div class="form">
+                    <label for="">Rua</label>
+                    <input type="text" class="form" maxlength="9" id="logradouro">                
+                </div>
+                <div class="form">
+                    <label for="">Bairro</label>
+                    <input type="text" class="form" maxlength="9" id="bairro">                
+                </div>
+                <div class="form">
+                    <label for="">Localidade</label>
+                    <input type="text" class="form" maxlength="9" id="localidade">                
+                </div>
+                <div class="form">
+                    <label for="">UF</label>
+                    <input type="text" class="form" maxlength="9" id="uf">                
+                </div>        
+            </form>
+        </main>
+      </div>    
+    <script src="main.js"></script>
+</body>
+</html>
